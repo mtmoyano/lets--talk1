@@ -7,6 +7,8 @@
     <title>Página Principal</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="/icons/iconletstalk.jpeg" type="image/x-icon">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body class="contenedorPrincipal">
@@ -16,10 +18,10 @@
 
             <img class="banderasDos" src="img/banderas-1 (1).png" alt="Banderas">
 
-            <h1>Let's Talk Argentina</h1>
+            <h1 data-aos="zoom-in-up">Let's Talk Argentina</h1>
 
             <nav class="paginasNav">
-                <a href="">
+                <a href="index.html">
                 Inicio
                 </a>
                 <a href="./pages/sobremi.html">
@@ -56,7 +58,7 @@
             </section>
             
         </div>
-        <img class="imgPrincipal" src="/img/lets talk.png.jpeg" alt="fotoPrincipal">
+        <img data-aos="zoom-in-left" class="imgPrincipal" src="/img/lets talk.png.jpeg" alt="fotoPrincipal">
 
         <div class="contenedorClases">
             <h2>Clases de Conversación</h2>
@@ -108,5 +110,12 @@
         <H4>Todos los derechos son Reservados</H4>
         <p>Página creada para Curso Desarrollo Web CODERHOUSE</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 </html>

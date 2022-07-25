@@ -7,7 +7,8 @@
     <title>About Me</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="/icons/iconletstalk.jpeg" type="image/x-icon">
-    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <Header>
@@ -40,7 +41,7 @@
     </Header>
     <main class="mainSobremi" >
         <div class="quienSoy">
-            <h1>Hola! Soy Mariana Moyano</h1>
+            <h2 data-aos="flip-left">Hola! Soy Mariana Moyano</h2>
             <ul>
                 <li>Guia de Turismo</li>
                 <li>Licenciada en Turismo y Hotelería</li>
@@ -62,7 +63,7 @@
             <p>Que estás esperando para consultarme horarios, disponibilidad y costos??</p>
         </div>
 
-        <section class="seeYou">
+        <section data-aos="zoom-out-left" class="seeYou">
             <h4>Let's Talk and See you soon</h4>
             <img src="/img/lets talk.png.jpeg" alt="imgLetstalk">
         </section>
@@ -74,5 +75,12 @@
         <H4>Todos los derechos son Reservados</H4>
         <p>Página creada para Curso Desarrollo Web CODERHOUSE</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 </html>    
