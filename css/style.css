@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedorMain{
+    display: grid;
+    grid-template-areas:"redes redes foto "
+                        "clases clases clases"
+                        "ejercicios ejercicios ejercicios"
+                        "alumnos alumnos alumnos";
+    justify-content: space-around;
+    align-items: center;
+    background-color:blanchedalmond;
+}
+
+
+.imgPrincipal{
+    grid-area: foto;
+}
+.contenedorClases{
+    grid-area: clases;
+}
+.contenedorEjercicios{
+    grid-area: ejercicios;
+}
+.comentarioAlumnos{
+    grid-area: alumnos;
+}
+.bloqueSuperior {
+    display: grid;
+    grid-template-areas: "bandera titulo navegacion";
+    justify-content:space-around;
+    align-items: center;
+    background-color:blanchedalmond;
+
+}
+
+h1 {
+    grid-area: titulo;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.banderasDos {
+    grid-area: bandera;
+    width: 100px;
+    border: 3px black solid
+    
+}
+
+.paginasNav {
+    grid-area: navegacion;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    border: 1px aquamarine dotted;
+    font-size: medium;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-top: 1px;
+    text-decoration: underline;
+}
+
+.icono {
+    border: 1px beige solid;
+    margin: 1px;
+    padding: 1px;
+
+}
+
+.cajaIconos {
+    display: flex;
+    flex-direction:column;
+    border: 3px black solid;
+    border-radius: 5%;
+    width: 40%;
+    align-items:center;
+    justify-content: center;
+    margin-left: 30%;
+    background-color: cyan;
+
+}
+
+.contenedorSuperior {
+    grid-area: redes;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1px;
+    justify-content: center;
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+.imgPrincipal{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border: 2px blanchedalmond solid;
+}
+.contenedorClases{
+    background-color: blanchedalmond;
+    margin:10px;
+    padding: 10px;
+    text-align:start;
+}
+.contenedorClases ol{
+    list-style:circle;
+    margin:5px;
+    padding: 10px;
+}
+.contenedorEjercicios{
+    background-color: blanchedalmond;
+    margin:10px;
+    padding: 10px;
+    text-align:start;
+}
+.contenedorEjercicios ul{
+    list-style: disc;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.comentarioAlumnos{
+    border: 2px cyan solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+}
+.alumno{
+    margin: 25px;
+    padding:25px;
+    border: 1px cyan solid;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    border: 3px darksalmon solid;
+    background-color:blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+.mainSobremi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+.quienSoy{
+    background-color: coral;
+    border:1px black solid;
+    border-radius: 15%;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi{
+    background-color: coral;
+    border: 1px black solid;
+    border-radius: 5%;
+    margin:20px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.sobreMi h2{
+    margin: top 1px;;
+    font-size: 500%;
+}
+.seeYou{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: coral;
+    border: 1px black solid;
+    border-radius: 5%;
+    margin:20px 20px 20px 180px;
+    padding:20px;
+    width: 40%;
+}
+
+
+.bloquePrincipal section{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    border: 1px black solid;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.clasesTematicas{
+    background-color: aquamarine;
+    border: 1px black solid;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.clasesTematicas ul{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.preguntasFrecuentes h2{
+    border:1px black dotted;
+    text-align: center;
+    background-color: lightcyan;
+}
+.preguntasYRespuestas{
+    border: 2px black solid;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 5px;
+    background-color: cyan;
+    gap: 10px;
+}
+.formularioContacto{
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+}
+.contenedorImput{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.campo{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    gap: 20px;
+
+}
+.submitButton{
+    display: flex;
+    width: 150px;
+    margin: auto;
+    background-color: aquamarine;
+    border: 2px black solid;
+    justify-content: center;
+}
+.padreSobremi{
+    display: grid;
+    grid-area: "encabezado encabezado encabezado"
+                "main main main"
+                "footer footer footer";
+}
+
+header{
+    grid-area: encabezado;
+}
+.mainSobreMi{
+    grid-area: main;
+}
+#footer{
+    grid-area: footer;
+}
+
+.mainSobremi{
+    display: grid;
+    grid-template-areas: "quiensoy quiensoy quiensoy"
+                         "aboutme seeYouSoon seeYouSoon"
+                         "aboutme seeYouSoon seeYouSoon";
+}
+.quienSoy{
+    grid-area: quiensoy;
+}
+.sobreMi{
+    grid-area: aboutme;
+}
+.seeYou{
+    grid-area: seeYouSoon;
+}
+
+@media (max-width:900px){
+    .contenedorMain{
+        display: grid;
+        grid-template-areas:"redes foto"
+                            " clases clases"
+                            "ejercicios ejercicios"
+                            "alumnos alumnos";
+        flex-wrap: wrap;
+    }
+    .paginasNav{
+        display: none;
+    }
+
+    .imgPrincipal{
+        size-adjust: 100%;
+    }
+    .contenedorClases{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenedorEjercicios{
+        flex-wrap: wrap;
+    }
+    .comentarioAlumnos{
+        flex-wrap: wrap;
+    }
+}
+
